@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    background-color: rgb(53, 10, 184);
+    color: white;
+    margin: 15px;
+    padding: 10px 600px;
+    height: 48px;
+    font-size: 40px;
+
+}
+
+
+nav ul
+{
+    list-style-type: none;
+}
+
+.games
+{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    padding: 40px;
+
+    
+
+}
+
+.container
+{
+    display: grid;
+    grid-template-rows: repeat(3,10vw);
+    grid-template-columns: repeat(3,10vw);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.box
+{
+    border: 2px solid rgb(211, 16, 211);
+    font-size: 130px;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.box:hover{
+    background-color: rgb(211, 16, 211);
+}
+
+.gameinfo
+{
+    padding: 0px 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.imgbox img
+{
+    display: none;
+}
+
+.br-0
+{
+    border-right: 0;
+}
+
+.bl-0
+{
+    border-left: 0;
+}
+
+.bt-0
+{
+    border-top: 0;
+
+}
+
+.bb-0
+{
+    border-bottom: 0;
+}
